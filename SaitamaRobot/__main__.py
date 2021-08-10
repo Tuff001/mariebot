@@ -59,7 +59,7 @@ You can find my list of available commands with /help.
 
 HELP_STRINGS = """
 Hey there! 👸My name is *{}*.
-I'm Dr Stone & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm Tuff Bot & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/dc23351053dbb093f5076.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/20b9aeb3ef8a786b39107.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -205,15 +205,15 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/TG_BotZ")
+                             url="https://t.me/tuffzonehere")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" 🔮Help ",
-                            url="https://t.me/ELIZABETHTG_bot?start=help"),
+                            url="https://t.me/tuffrd_bot?start=help"),
                          InlineKeyboardButton(
                             text=" 🚴Made by 🛸 ",
-                             url="https://t.me/rosebakthan")        
+                             url="https://t.me/smartdollar")        
                        
                      ],
                      [
